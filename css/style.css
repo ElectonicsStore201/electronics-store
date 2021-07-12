@@ -243,6 +243,11 @@ main {
   position: relative;
   top:60px;
   right: 44%;
+  padding-right: 15%;
+}
+
+#Linksheader{
+  padding-right: 60px;
 }
 header{
  
@@ -269,7 +274,7 @@ header{
         background-size:cover;
         margin:0px;
         color:transparent;
-        right:330px;
+        right: 310px;
 
         
         /* left: 70px; */
