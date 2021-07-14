@@ -30,6 +30,7 @@ function showCart() {
      inputElTotal.type='number';
 
     imgEl.setAttribute('src', cart.items[i].product.image);
+    inputElTotal.setAttribute('min','1');
     tdEl1.appendChild(imgEl);
     imgEl.style.width = '50px';
     imgEl.style.height = '50px';
@@ -200,7 +201,8 @@ function cardForm(event) {
       title: 'Success',
       text: 'Thank you for purchasing from us',
       icon: 'success',
-      confirmButtonText: 'ok'
+      confirmButtonText: 'ok',
+      confirmButtonColor:'#113F67'
     }).then(function(){
       window.location = '../index.html';
     });
@@ -220,8 +222,19 @@ function totalCalc(){
   totalDiv.textContent = '';
 
   // totalEl.setAttribute('id','totalprice');
-totalElResult.style.width = '100px';
-totalElResult.style.height = '100px';
+totalElResult.style.width = '70%';
+totalElResult.style.height = '20px';
+totalElResult.style.background='#113F67';
+totalElResult.style.color='white';
+totalElResult.style.padding='20px';
+totalElResult.style.margin='auto';
+totalElResult.style.textAlign='center';
+totalElResult.style.borderTopLeftRadius='50px';
+totalElResult.style.borderBottomRightRadius='50px';
+
+
+
+
   for (let i = 0; i < cart.items.length; i++) {
     total = total +cart.items[i].product.price;
   }
