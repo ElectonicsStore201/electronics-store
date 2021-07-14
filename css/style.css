@@ -39,10 +39,17 @@ header{
         color:transparent;
         right:390px;
 
+
+        
+
+
         
         /* left: 70px; */
         
     }
+
+  
+
 
     nav {
         max-width: 800px;
@@ -783,13 +790,7 @@ main {
   margin-top: 25%;
   font-weight: bolder;
  }
- #allproductsh2{
-  font-family: 'Libre Baskerville', serif;
-   text-align: center;
-   font-size: 40px;
-   font-weight: bolder;
-   color: black;
- }
+ 
 
  #laptopsdisplay{
 
@@ -889,6 +890,8 @@ main {
   font-weight: bold;
   position: relative;
   left: 68%;
+  top: 20px;
+  display: inline-block;
   /* bottom: 29px; */
   /* margin-left: 70%; */
   /* float: right;
@@ -1094,22 +1097,26 @@ color: white;}
  #he{
      background:url('https://media4.giphy.com/media/xT9IgwWOpd4sJVuDe0/giphy.gif?cid=ecf05e4714epesj37nc0r4tlpi6ju7a1gznpl4lvaoqtvmuq&rid=giphy.gif&ct=g') center center no-repeat;
      -webkit-background-clip: text;
-     font-family: 'Libre Baskerville', serif;
      -webkit-text-fill-color: transparent;
-     font-size:5rem;
      letter-spacing:10px;
      background-size:cover;
-     margin:0px;
      color:transparent;
      text-align: center;
-     font-size: 80px;
+     font-weight: bolder;
+     font-size: 64px;
+
+     
      
  }
 
  #hediv{
-   margin-top: 20px;
+   margin: 50px;
    background-color: #113F67 ;
-   border-radius: 30px;
+   
+   width: 90%;
+   border-top-left-radius: 50px;
+   border-bottom-right-radius: 50px;
+   padding: 10px;
  }
  .aboutus-contanier{
  
@@ -1208,19 +1215,12 @@ color: white;}
 
 /* styling all products pages by ahmad */
 .allproductsmain{
-  margin-top: 100px;
+  margin-top: 130px;
   padding-bottom: 40px;
   
 }
 
-.specificproducttitle{
-  text-align: center;
-  position: relative;
-  top: 100px;
-  font-weight: bolder;
-  font-size: 40px;
-  color: black;
-}
+
 .aboutus-flex{
   background-color: white;
   margin-top: 100px;
@@ -1253,3 +1253,55 @@ h2{
 /* END of final day */
 
 
+
+
+/* styling headers */
+
+.specificproducttitle{
+  text-align: center;
+  position: relative;
+  top: 100px;
+  font-weight: bolder;
+  font-size: 32px;
+  color: black;
+  margin: 20px auto;
+  width: 90%;
+  background-color:#113F67 ;
+  padding: 20px;
+  color: white;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+#allproductsh2{
+   text-align: center;
+   font-weight: bolder;
+   color: white;
+   /* position: relative; */
+  
+  font-weight: bolder;
+  font-size: 32px;
+  
+  margin: 20px auto;
+  width: 90%;
+  background-color:#113F67 ;
+  padding: 20px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  
+ } 
+
+ /* #totalResult{
+   display: inline-block;
+   position: relative;
+   left: 56%;
+   background-color: #113F67;
+   color: white;
+   width: 200px;
+   height: 70px;
+  
+   
+   
+ } */
+
+/*  */
