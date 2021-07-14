@@ -204,7 +204,7 @@ function cardForm(event) {
       confirmButtonText: 'ok',
       confirmButtonColor:'#113F67'
     }).then(function(){
-      window.location = '../index.html';
+      window.location = 'index.html';
     });
     localStorage.removeItem('cart');
 
